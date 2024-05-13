@@ -56,15 +56,4 @@ def bougeHanoi(tours, n, depuisTour, versTour):
 
 # Test des fonctions
 tours_initiaux = initHanoi(4)
-print("Question 1 :")
-print(tours_initiaux)
-
-print("\nQuestion 2 :")
-afficheHanoi([[4, 3, 2, 1], [], []])
-afficheHanoi([[4, 3], [1], [2]])
-
-print("\nQuestion 3 :")
 joueHanoi([[3, 2, 1], [], []])
-
-print("\nQuestion 4 :")
-bougeHanoi([[3, 2, 1], [], []], 3, 0, 2)
